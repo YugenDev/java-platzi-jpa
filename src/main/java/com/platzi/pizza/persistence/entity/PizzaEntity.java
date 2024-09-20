@@ -31,13 +31,13 @@ public class PizzaEntity {
     @Column(nullable = false, columnDefinition = "Decimal(5,2)")
     private Double price;
 
-    @Column(columnDefinition = "TINYINT")
+    @Column(columnDefinition = "smallint")
     private Boolean vegetarian;
 
-    @Column(columnDefinition = "TINYINT")
+    @Column(columnDefinition = "smallint")
     private Boolean vegan;
 
-    @Column(columnDefinition = "TINYINT", nullable = false)
+    @Column(columnDefinition = "smallint", nullable = false)
     private Boolean available;
     
 }
